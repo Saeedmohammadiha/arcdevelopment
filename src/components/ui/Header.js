@@ -269,7 +269,7 @@ export default function Header({value ,setValue ,setSelectedIndex, selectedIndex
           label="Contact Us"
         />
       </Tabs>
-      <Button variant="contained" color="secondary" className={classes.button}>
+      <Button component={Link} to='/estimate' onClick={()=> setValue(5)} variant="contained" color="secondary" className={classes.button}>
         Free Estimate
       </Button>
       <Menu
