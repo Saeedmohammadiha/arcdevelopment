@@ -200,7 +200,7 @@ export default function LandingPage({setValue, setSelectedIndex}) {
               Complete Digital Solution, From Investigation to{' '}
               <span className={classes.specialText}>celebration.</span>
             </Typography>
-            <Button component={Link} to='/costomsoftware' onClick={()=>{setValue(1);setSelectedIndex(1)}} variant="outlined" className={classes.learnButton}>
+            <Button component={Link} to='/customsoftware' onClick={()=>{setValue(1);setSelectedIndex(1)}} variant="outlined" className={classes.learnButton}>
               <span style={{ marginRight: 10 }}> Learn More</span>
               <ButtonArrow
                 width={10}

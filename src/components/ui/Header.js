@@ -89,6 +89,7 @@ const useStyles = makeStyles((theme) => ({
   menuItem: {
     ...theme.typography.tab,
     opacity: 0.7,
+    color: 'white',
     '&:hover': {
       opacity: 1,
     },
@@ -145,7 +146,7 @@ export default function Header({value ,setValue ,setSelectedIndex, selectedIndex
     { name: 'Services', link: '/services' },
     { name: 'Custom Software Development', link: '/customsoftware' },
     { name: 'Mobile App Development', link: '/mobileapp' },
-    { name: 'Website Development', link: '/website' },
+    { name: 'Website Development', link: '/websites' },
   ];
 
   const routs = [
